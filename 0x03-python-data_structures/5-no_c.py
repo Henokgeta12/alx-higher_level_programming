@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 def no_c(my_string):
     modified_string = ""
     if 'c' not in my_string and 'C' not in my_string:
