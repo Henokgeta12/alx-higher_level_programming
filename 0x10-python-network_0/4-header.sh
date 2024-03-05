@@ -1,4 +1,7 @@
 #!/bin/bash
-# Send a GET request to a given URL with a header variable.
-curl -sH "X-HolbertonSchool-User-Id: 98" "${1}"
 
+url=$1
+
+response=$(curl -sSL -H "X-School-User-Id: 98" "$url")
+echo "Response body:"
+echo "$response"
